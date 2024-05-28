@@ -1,0 +1,14 @@
+P01136 has status code: 200
+original line:GN   Name=OPG019; Synonyms=VGF-1; OrderedLocusNames=VACWR009;
+original line:GN   and
+original line:GN   Name=VGF-2; OrderedLocusNames=VACWR210;
+Names:OPG019, Names:VGF-1, Names:VGF-2, 
+
+P04021 has status code: 200
+original line:GN   Name=OPG057; OrderedLocusNames=VACWR052; ORFNames=F13L;
+Names:OPG057, 
+
+P04298 has status code: 200
+original line:GN   Name=OPG113; OrderedLocusNames=VACWR106; ORFNames=D1R;
+Names:OPG113, 
+

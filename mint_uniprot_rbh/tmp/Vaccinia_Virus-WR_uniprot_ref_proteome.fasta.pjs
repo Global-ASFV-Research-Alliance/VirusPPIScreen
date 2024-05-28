@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "Vaccinia_Virus-WR_uniprot_ref_proteome.fasta",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "/lustrefs/fadru/projects/asfv-ppi/data/Vaccinia/Vaccinia_Virus-WR_uniprot_ref_proteome.fasta",
+  "number-of-letters": 56844,
+  "number-of-sequences": 218,
+  "last-updated": "2024-04-02T22:57:00",
+  "number-of-volumes": 1,
+  "bytes-total": 139334,
+  "bytes-to-cache": 59023,
+  "files": [
+    "Vaccinia_Virus-WR_uniprot_ref_proteome.fasta.pdb",
+    "Vaccinia_Virus-WR_uniprot_ref_proteome.fasta.phr",
+    "Vaccinia_Virus-WR_uniprot_ref_proteome.fasta.pin",
+    "Vaccinia_Virus-WR_uniprot_ref_proteome.fasta.pot",
+    "Vaccinia_Virus-WR_uniprot_ref_proteome.fasta.psq",
+    "Vaccinia_Virus-WR_uniprot_ref_proteome.fasta.ptf",
+    "Vaccinia_Virus-WR_uniprot_ref_proteome.fasta.pto"
+  ]
+}
