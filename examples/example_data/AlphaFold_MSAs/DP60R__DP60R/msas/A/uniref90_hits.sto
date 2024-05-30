@@ -1,0 +1,16 @@
+# STOCKHOLM 1.0
+
+#=GS UniRef90_A0A3Q9CZD8/1-54  DE [subseq from] DP60R n=2 Tax=African swine fever virus TaxID=10497 RepID=A0A3Q9CZD8_ASF
+#=GS UniRef90_Q65214/3-55      DE [subseq from] Uncharacterized protein DP60R n=2 Tax=African swine fever virus TaxID=10497 RepID=DP60R_ASFB7
+#=GS UniRef90_A0A2X0RVZ7/1-54  DE [subseq from] DP60R n=1 Tax=African swine fever virus TaxID=10497 RepID=A0A2X0RVZ7_ASF
+#=GS UniRef90_D4I5I4/3-53      DE [subseq from] BA71V-DP60R protein n=1 Tax=African swine fever virus (isolate Pig/Spain/E-75/1975) TaxID=686262 RepID=D4I5I4_ASFE7
+#=GS UniRef90_A0A6G6AI19/27-50 DE [subseq from] DP60R n=1 Tax=African swine fever virus TaxID=10497 RepID=A0A6G6AI19_ASF
+
+chain_A                           MSLWPPQKKVFTVGFITGGVTPVMVNFVWPAAQPQKKINYNRKKKYFRPRRFKK
+UniRef90_A0A3Q9CZD8/1-54          MSLWPPQKKVFTVGFITGGVTPVMVNFVWPAAQPQKKINYNRKKKYFRPRRFKK
+UniRef90_Q65214/3-55              -SIWPPQKKVFTVGFITGGVTPVMVSFVWPAAQPQKKINYSRKKKYFRPRSFYK
+UniRef90_A0A2X0RVZ7/1-54          MSLWPPQKKVFTVGFITGGVTPVMVNFVWPAAQPQKKNQLQPQKKIFPAAAFQK
+UniRef90_D4I5I4/3-53              -SIWPPQKKVFTVGFITGGVTPVMVSFVWPAAQPQKKNQLQPQKKIFPAAEF--
+UniRef90_A0A6G6AI19/27-50         ------------------------------LAQPQKKINYNRKKKYFRPRRFKK
+#=GC RF                           xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//

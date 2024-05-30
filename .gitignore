@@ -1,0 +1,8 @@
+af_analysis/
+api/
+mint_uniprot_rbh/
+pMSA/
+hhsuite/
+common/not_used/
+singularity/
+examples/example_pmsa_out/
