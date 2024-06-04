@@ -1,0 +1,14 @@
+name: VirusPPIScreen
+channels:
+  - biocore
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - biopython=1.83
+  - hhsuite=3.3.0
+  - hmmer=3.1b2
+  - numpy=1.26.4
+  - numpy-base=1.26.4
+  - pandas=2.2.1
+  - python=3.10.14

@@ -1,69 +1,40 @@
-# VirusPPIScreen. Scripts to run genome-wide virus-virus PPI screens with AlphaFold v2. Everything below is template
-msa.py library derieved from alphafold v2.3.2 https://github.com/google-deepmind/alphafold/tree/main
-modifications were made to the MSA class to expand functions used in this work
-# Project Title
+# VirusPPIScreen
 
-Simple overview of use/purpose.
+Scripts to run genome-wide virus-virus PPI screens with AlphaFold v2 
 
-## Description
+## Installation and Dependencies
+You will need a machine that can run bash scripts 
+1. install [Miniconda](https://docs.anaconda.com/free/miniconda/).
+1. clone this repo and 'cd' into it
+    '''bash
+    git clone https://github.com/Global-ASFV-Research-Alliance/VirusPPIScreen.git 
+    cd ./VirusPPIScreen 
+    '''
+1. create conda environment and activate it
+    '''bash
+    conda env create --file=VirusPPIScreen_env.yml
+    conda activate VirusPPIScreen
+    '''
+1. download software dependencies with scripts/download_dependencies.sh
+Please visit [hhsuite](https://mmseqs.com/hhsuite/) and choose the appropriate compiled 
+binary filename for your system
+    '''bash
+    chmod +x scripts/download_dependencies.sh
+    ./scripts/download_dependencies.sh hhsuite-linux-sse2.tar.gz
+    '''
 
-An in-depth paragraph about your project and overview of use.
+## Test the installation
+examples/test_pmsa.sh generates a genome wide pMSAs for the ASFV_test_genome.fa 
+using the test database example_viral_db.fasta and the test AlphaFold outputs
+AlphaFold_MSAs/
 
-## Getting Started
+    '''bash
+    chmod +x examples/test_pmsa.sh
+    ./examples/test_pmsa.sh
+    '''
+As the ASFV_test_genome.fa has two proteins, this script will produce one heterodimer
+and two homodimer pMSAs in examples/example_pmsa_out/pmsas/
+This scripts should take about 10-20 minutes to complete and will use two CPU cores 
 
-### Dependencies
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
-
-### Installing
-clone this repo 
-cd to repo
-run scripts/download_dependencies.sh to download and unzip hhsuite binary for your device
-create conda environment with .yml file 
-run examples/test_pmsa.sh to use pMSA generation pipeline on example dataset
-
-
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
-## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+## Author 
+Jacob A. Fenster

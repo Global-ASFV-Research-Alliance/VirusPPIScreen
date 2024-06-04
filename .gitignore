@@ -1,3 +1,4 @@
+.gitignore
 af_analysis/
 api/
 mint_uniprot_rbh/
