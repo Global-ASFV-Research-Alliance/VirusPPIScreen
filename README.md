@@ -26,12 +26,12 @@ binary filename for your system
 ## Test the installation
 examples/test_pmsa.sh generates a genome wide pMSAs for the ASFV_test_genome.fa 
 using the test database example_viral_db.fasta and the test AlphaFold outputs
-AlphaFold_MSAs/
+AlphaFold_MSAs/ 
+```bash
+chmod +x scripts/download_dependencies.sh
+./scripts/download_dependencies.sh hhsuite-linux-sse2.tar.gz
+```
 
-    ```bash
-    chmod +x examples/test_pmsa.sh
-    ./examples/test_pmsa.sh
-    ```
 As the ASFV_test_genome.fa has two proteins, this script will produce one heterodimer
 and two homodimer pMSAs in examples/example_pmsa_out/pmsas/
 This scripts should take about 10-20 minutes to complete and will use two CPU cores 
